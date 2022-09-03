@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <title>Document</title>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+
+  <body>
+    <!-- navbar with side-nav -->
+    <div class="navbar-fixed">
+        <nav>
+          <div class="nav-wrapper grey darken-2">
+            <a href="#" class="brand-logo">Restaurant</a>
+            <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+              <li><a href="#" class="waves-effect waves-light btn modal-trigger red">HOME</a></li>
+              <li><a href="#" class="waves-effect waves-light btn modal-trigger red">ABOUT US</a></li>
+              <li><a  href="#modal1" class="waves-effect waves-light btn modal-trigger red">Menu</a></li>
+              <li><a href="#" class="waves-effect waves-light btn modal-trigger red">CONTACT</a></li>
+            </ul>
+            <ul class="side-nav red" id="slide-out">
+                <li><a href="#">Home</a></li>
+                <li><a href="#" class="white-text">About Us</a></li>
+                <li><a href="#modal1" class="white-text white-text waves-effect waves-light btn modal-trigger"">Menu</a></li>
+                <li><a href="#" class="white-text">Contact</a></li>
+              </ul>
+          </div>
+        </nav>
+    </div>
+
+      <!-- parallax container -->
+      
+          <div class="slider">
+            <ul class="slides">
+              <li>
+                <img src="images/img-6.jpg"> <!-- random image -->
+                <div class="caption center-align">
+                  <h3>This is our big Tagline!</h3>
+                  <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                </div>
+              </li>
+              <li>
+                <img src="images/img-3.jpg"> <!-- random image -->
+                <div class="caption left-align">
+                  <h3>Left Aligned Caption</h3>
+                  <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                </div>
+              </li>
+              <li>
+                <img src="images/img-4.jpg"> <!-- random image -->
+                <div class="caption right-align">
+                  <h3>Right Aligned Caption</h3>
+                  <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                </div>
+              </li>
+            </ul>
+          </div>
+              
+    
+
+      <!-- carousel section -->
+        <div class="teal lighten-5">
+            <div class="carousel">
+                <a class="carousel-item" href="#one!"><img src="images/img-1.jpg" class="responsive-image"></a>
+                <a class="carousel-item" href="#two!"><img src="images/img-2.jpg" class="responsive-image"></a>
+                <a class="carousel-item" href="#three!"><img src="images/img-3.jpg" class="responsive-image"></a>
+                <a class="carousel-item" href="#four!"><img src="images/img-4.jpg" class="responsive-image"></a>
+                <a class="carousel-item" href="#five!"><img src="images/img-6.jpg" class="responsive-image"></a>
+                <a class="carousel-item" href="#six!"><img src="images/img-8.jpg" class="responsive-image"></a>   
+            </div>
+        </div>  
+                
+    <!-- cards section -->
+    <div class="row">
+      <div class="col s12 m3">
+        <div class="card">
+          <div class="card-image">
+            <img src="images/sea-foods.jpg" class="circle responsive-img">
+            <span class="card-title">Sea Foods</span>
+            <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+          </div>
+          <div class="card-content">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt, dicta.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m3">
+        <div class="card">
+          <div class="card-image">
+            <img src="images/fresh-salads.jpg" class="circle responsive-img">
+            <span class="card-title">Sea Foods</span>
+            <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+          </div>
+          <div class="card-content">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt, dicta.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m3">
+        <div class="card">
+          <div class="card-image">
+            <img src="images/party-platters.jpg" class="circle responsive-img">
+            <span class="card-title">Sea Foods</span>
+            <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+          </div>
+          <div class="card-content">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt, dicta.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m3">
+        <div class="card">
+          <div class="card-image circle">
+            <img src="images/vegan-desert.jpg" class="circle responsive-img">
+            <span class="card-title">Sea Foods</span>
+            <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+          </div>
+          <div class="card-content">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt, dicta.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+             
+  <!-- menu page -->
+  <div id="modal1" class="modal" style="background-image: url(images/menu.jpg); background-repeat:no-repeat; background-size: cover;">
+    <div class="modal-content">
+      <h4 class="teal-text center">OUR MENU</h4>
+     
+       <!-- menu section -->
+       <section class="menu">
+        <!-- Pasta session -->
+        <h2 class="center red accent-1 white-text">PASTA</h2>
+          <div class="row">
+            <div class="col s12 m6">
+                <div class="card">
+                  <div class="card-image">
+                    <img src="images/spa.jpg" class="circle">
+                    <span class="card-title">Spaghetti Classica</span>
+                  </div>
+                  <div class="card-content">
+                    <p>Fresh tomatoes, onions, ground beef</p>
+                    <div class="btn right red white-text">$ 11.00</div>
+                  </div>
+                </div>
+            </div>
+            <div class="col s12 m6">
+              <div class="card">
+                <div class="card-image">
+                  <img src="images/lasagna.jpg" class="circle">
+                  <span class="card-title">Lasagna</span>
+                </div>
+                <div class="card-content">
+                  <p>Special sauce, mozzarella, parmesan, ground beef</p>
+                  <div class="btn right red white-text">$ 15.50</div>
+                </div>
+              </div>
+            </div>
+            <div class="col s12 m6">
+              <div class="card">
+                <div class="card-image">
+                  <img src="images/ravioli.jpg" class="circle">
+                  <span class="card-title">Ravioli</span>
+                </div>
+                <div class="card-content">
+                  <p>Ravioli filled with cheese</p>
+                  <div class="btn right red white-text">$ 14.50</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- pizza section -->
+        <h2 class="center red accent-1">PIZZA</h2>
+        <div class="row">
+          <div class="col s12 m6">
+              <div class="card">
+                <div class="card-image">
+                  <img src="images/mageritta.jpg" class="circle">
+                  <span class="card-title">Magherita</span>
+                </div>
+                <div class="card-content">
+                  <p>Fresh tomatoes, fresh mozzarella, fresh basil</p>
+                  <div class="btn right red white-text">$ 16.00</div>
+                </div>
+              </div>
+          </div>
+          <div class="col s12 m6">
+            <div class="card">
+              <div class="card-image">
+                <img src="images/formagio.jpg" class="circle">
+                <span class="card-title">Formaggio</span>
+              </div>
+              <div class="card-content">
+                <p>Four cheeses (mozzarella, parmesan, pecorino, jarlsberg)</p>
+                <div class="btn right red white-text">$ 19.50</div>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6">
+            <div class="card">
+              <div class="card-image">
+                <img src="images/meat-town.jpg" class="circle">
+                <span class="card-title">Meat Town</span>
+              </div>
+              <div class="card-content">
+                <p>Fresh tomatoes, mozzarella, hot pepporoni, hot sausage, beef, chicken</p>
+                <div class="btn right red white-text">$ 20.50</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- starters section -->
+        <h2 class="center red accent-1">PIZZA</h2>
+        <div class="row">
+          <div class="col s12 m6">
+              <div class="card">
+                <div class="card-image">
+                  <img src="images/garlic-bread.jpg" class="circle">
+                  <span class="card-title">Magherita</span>
+                </div>
+                <div class="card-content">
+                  <p>Grilled ciabatta, garlic butter, onions</p>
+                  <div class="btn right red white-text">$ 16.00</div>
+                </div>
+              </div>
+          </div>
+          <div class="col s12 m6">
+            <div class="card">
+              <div class="card-image">
+                <img src="images/today's special.jpg" class="circle">
+                <span class="card-title">TODAY's SPECIAL</span>
+              </div>
+              <div class="card-content">
+                <p>Verify from the waiter</p>
+                <div class="btn right red white-text">$ 13.50</div>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6">
+            <div class="card">
+              <div class="card-image">
+                <img src="images/bruchetta.jpg" class="circle">
+                <span class="card-title">BRUSCHETTA</span>
+              </div>
+              <div class="card-content">
+                <p>Bread with pesto, tomatoes, onion, garlic</p>
+                <div class="btn right red white-text">$ 14.50</div>
+              </div>
+            </div>
+          </div>
+        </div>
+       </section>
+      
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+  </div>
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
