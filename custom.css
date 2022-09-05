@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lora', serif;
+}
+
+.down {
+    margin-top: 40px;
+}
+.down img {
+   margin: 25px;
+}
+  .footer-content {
+    border-top-left-radius: 100%;
+    margin-top: 30px;
+  }
