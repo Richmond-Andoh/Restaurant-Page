@@ -22,3 +22,13 @@ $(document).ready(function(){
   $(document).ready(function(){
     $('.carousel').carousel();
   })
+
+  // parallax
+  $(document).ready(function(){
+    $('.parallax').parallax();
+  });
+
+  // modal2
+  $(document).ready(function(){
+    $('#modal2').modal();
+  });
