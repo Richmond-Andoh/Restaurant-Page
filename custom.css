@@ -18,3 +18,14 @@ body{
     border-top-left-radius: 100%;
     margin-top: 30px;
   }
+
+  .gifImg{
+    border-top-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+  }
+.offer{
+  margin-top: 50px;
+}
+  #modalFooter{
+    border-end-end-radius: 40%;
+  }
