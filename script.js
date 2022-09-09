@@ -32,3 +32,14 @@ $(document).ready(function(){
   $(document).ready(function(){
     $('#modal2').modal();
   });
+
+  //input character-counter
+  $(document).ready(function() {
+    $('input#input_text, textarea#textarea1').characterCounter();
+  });
+
+
+
+  //display the about page on smaller screens
+
+  
