@@ -71,14 +71,3 @@ body{
     color: rgb(255, 225, 0);
   }
 
-  .sideNav {
-    position: absolute;
-    top: 0;
-    display: none;
-  }
-
-  @media (max-width: 800px) {
-       .sideNav{
-        display: block;
-       }
-  }
