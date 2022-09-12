@@ -12,7 +12,7 @@ live demo
 Clone the project
 
 ```bash
-  git clone https://github.com/Richmond-Andoh/Farmasyst.git
+  git clone https://github.com/Richmond-Andoh/Restaurant-Page.git
 ```
 Go to the project directory
 
