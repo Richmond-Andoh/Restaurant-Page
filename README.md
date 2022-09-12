@@ -6,7 +6,7 @@
 ![](images/secondShot.PNG)
 
 ## Demo
-live demo
+live demo (https://richmond-andoh.github.io/Restaurant-Page/)
 
 ## Run Locally
 Clone the project
