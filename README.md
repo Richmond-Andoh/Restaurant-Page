@@ -1,4 +1,4 @@
- Restaurant-Page
+ # Restaurant-Page
  This app is a free restaurant template designed with Materialize CSS 
 
  ## Screenshots
