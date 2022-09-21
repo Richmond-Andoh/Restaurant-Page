@@ -4,6 +4,7 @@
  ## Screenshots
  ![](images/firstShot.PNG)
 ![](images/secondShot.PNG)
+![](images/thirdShot.PNG)
 
 ## Demo
 live demo (https://richmond-andoh.github.io/Restaurant-Page/)
